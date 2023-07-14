@@ -1,6 +1,6 @@
 import Header from '~/components/Layout/components/Header';
 
-const DefaultLayout = ({ children }) => {
+const HeaderOnly = ({ children }) => {
    return (
       <>
          <Header />
@@ -11,4 +11,4 @@ const DefaultLayout = ({ children }) => {
    );
 };
 
-export default DefaultLayout;
+export default HeaderOnly;
