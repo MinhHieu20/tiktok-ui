@@ -3,6 +3,11 @@
 
 :root {
    --primary: #fe2c55;
+   --text-color: #333;
+
+   //default layout
+   --default-layout-header-height: 60px;
+   --default-layout-width: 1912px;
 }
 
 * {
@@ -19,4 +24,16 @@ body {
    font-family: 'IBM Plex Sans', sans-serif;
    font-size: 1.6rem;
    line-height: 1.5;
+}
+button,
+input,
+[tabindex] {
+   outline: none;
+   border: none;
+}
+a[href] {
+   color: var(--text-color);
+   height: 100%;
+   border: none;
+   outline: none;
 }
