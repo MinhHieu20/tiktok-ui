@@ -15,7 +15,6 @@
    .logo {
       margin-top: 5px;
    }
-   .search,
    .search-result {
       width: 500px;
       padding-top: 8px;
@@ -27,6 +26,7 @@
    }
    .search {
       display: flex;
+      width: 500px;
       height: 46px;
       border-radius: 25px;
       padding-left: 16px;
@@ -70,5 +70,12 @@
             cursor: pointer;
          }
       }
+   }
+   .more-btn {
+      font-size: 2rem;
+      margin-left: 20px;
+      background: transparent;
+      padding: 0 10px;
+      cursor: pointer;
    }
 }
